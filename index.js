@@ -12,7 +12,7 @@ function displayResults(responseJson) {
     $('.results-list').empty();
     // Looping through the response and formatting results
     $('.results').removeClass('hidden');
-    $('.results-list').append(`<li>${responseJson.data["0"].name}</li>`)};
+    $('.results-list').append(`<li>${responseJson.name}</li>`)};
   
 
 
